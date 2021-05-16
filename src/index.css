@@ -1,0 +1,39 @@
+/* ul {
+  margin-top: 0;
+} */
+
+body, ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* body{
+  overflow-x: hidden;
+} */
+
+.App{
+
+ text-align: center;
+ /* from webgradient */
+ background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.for-recipe{
+  max-width: 350px !important;
+  position: relative;
+}
+
+.recipe-info{
+ background-image: linear-gradient(145deg, white 50%, transparent 50%);
+ 
+}
+
+.recipe-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
